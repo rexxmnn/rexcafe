@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Important to make website responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>rexcafe</title>
+    <!-- <script src="./cjs/filtercoffee.js" async></script>
+    <script src="./cjs/cuppoccino.js" async></script>
+    <script src="./cjs/cardamom.js" async></script>
+    <script src="./cjs/ginger.js" async></script>
+    <script src="./cjs/lemon.js" async></script>
+    <script src="./cjs/green.js" async></script>
+    <script src="./cjs/black.js" async></script>
+    <script src="./cjs/badam.js" async></script>
+    <script src="./cjs/coldcof.js" async></script> -->
+    <script src="./addToCart.js" async></script>
+    <!-- Link our CSS file -->
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+
+  <body>
+    <!-- Navbar Section Starts Here -->
+    <section class="navbar">
+      <div class="container">
+        <div class="logo">
+          <a href="#" title="Logo">
+            <img
+              src="images/logo.png"
+              alt="Restaurant Logo"
+              class="img-responsive"
+            />
+          </a>
+        </div>
+
+        <div class="menu text-right">
+          <ul>
+            <li>
+              <a href="mainpage.html">Home</a>
+            </li>
+            <li>
+              <a href="foods.html">Menu</a>
+            </li>
+            <li>
+              <a href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+    </section>
+    <!-- Navbar Section Ends Here -->
+
+    <!-- fOOD sEARCH Section Starts Here -->
+    <section class="food-search text-center">
+      <div class="container">
+        <h2><a href="#" class="text-red">Cappuccino</a></h2>
+      </div>
+    </section>
+    <!-- fOOD sEARCH Section Ends Here -->
+
+    <!-- fOOD MEnu Section Starts Here -->
+    <section class="food-menu">
+      <div class="container">
+        <h2 class="text-center">Menu</h2>
+
+        <div class="food-menu-box">
+          <div class="food-menu-img">
+            <img
+              src="images/Cappuccino/filtercoffee.jpg"
+              alt="Filter coffee"
+              class="img-responsive img-curve"
+              width="100px"
+              height="80px"
+            />
+          </div>
+
+          <div class="food-menu-desc">
+            <h4 class="food-header" id="filter-coffee-header">Filter Coffee</h4>
+            <p class="food-price" id="filter-coffee-price">50 Rs</p>
+            <p class="food-detail">
+              Made with naturals oils, sugars and therefore caffeine.
+            </p>
+            <br />
+            <button class="btn btn-primary" type="submit">Add To Cart</button>
+          </div>
+        </div>
+
+        <div class="food-menu-box">
+          <div class="food-menu-img">
+            <img
+              src="images/Cappuccino/cappuccino.jpg"
+              alt="cappuccino"
+              class="img-responsive img-curve"
+              width="100px"
+              height="80px"
+            />
+          </div>
+
+          <div class="food-menu-desc">
+            <h4 id="cuppuccino-header">Cappuccino</h4>
+            <p class="food-price" id="cuppuccino-price">50 Rs</p>
+            <p class="food-detail">
+              Made with 1/3 Espresso, 1/3 Steamed milk, and 1/3 Foam.
+            </p>
+            <br />
+            <button class="btn btn-primary" type="submit">Add To Cart</button>
+          </div>
+        </div>
+
+        <div class="food-menu-box">
+          <div class="food-menu-img">
+            <img
+              src="images/Cappuccino/cardamomchai.jpg"
+              alt="cardamomchai"
+              class="img-responsive img-curve"
+              width="100px"
+              height="80px"
+            />
+          </div>
+
+          <div class="food-menu-desc">
+            <h4 id="cardamom-header">Garam/Cardamom Chai</h4>
+            <p class="food-price" id="cardamom-price">50 Rs</p>
+            <p class="food-detail">
+              Made with Milk, Green cardamom, Black tea leaves, Sugar.
+            </p>
+            <br />
+
+            <button class="btn btn-primary" type="submit">Add To Cart</button>
+          </div>
+        </div>
+
+        <div class="food-menu-box">
+          <div class="food-menu-img">
+            <img
+              src="images/Cappuccino/gingertea.jpg"
+              alt="Ginger tea"
+              class="img-responsive img-curve"
+              width="100px"
+              height="80px"
+            />
+          </div>
+
+          <div class="food-menu-desc">
+            <h4 id="ginger-header">Masala/Ginger Chai</h4>
+            <p class="food-price" id="ginger-price">50 Rs</p>
+            <p class="food-detail">
+              Made with Ginger, Green cardamom, Milk, Sugar.
+            </p>
+            <br />
+
+            <button class="btn btn-primary" type="submit">Add To Cart</button>
+          </div>
+        </div>
+
+        <div class="food-menu-box">
+          <div class="food-menu-img">
+            <img
+              src="images/Cappuccino/lemontea.jpg"
+              alt="Lemon tea"
+              class="img-responsive img-curve"
+              width="100px"
+              height="80px"
+            />
+          </div>
+
+          <div class="food-menu-desc">
+            <h4 id="lemon-header">Lemon Tea</h4>
+            <p class="food-price" id="lemon-price">50 Rs</p>
+            <p class="food-detail">
+              Made with Water, Tea powder, Lemon juice, Sugar.
+            </p>
+            <br />
+
+            <button class="btn btn-primary" type="submit">Add To Cart</button>
+          </div>
+        </div>
+
+        <div class="food-menu-box">
+          <div class="food-menu-img">
+            <img
+              src="images/Cappuccino/greentea.jpg"
+              alt="Green Tea"
+              class="img-responsive img-curve"
+              width="100px"
+              height="80px"
+            />
+          </div>
+
+          <div class="food-menu-desc">
+            <h4 id="green-header">Green Tea</h4>
+            <p class="food-price" id="green-price">50 Rs</p>
+            <p class="food-detail">
+              Made with Water, Sweetner, Green tea leaves, Lemon.
+            </p>
+            <br />
+
+            <button class="btn btn-primary" type="submit">Add To Cart</button>
+          </div>
+        </div>
+
+        <div class="food-menu-box">
+          <div class="food-menu-img">
+            <img
+              src="images/Cappuccino/blacktea.jpg"
+              alt="Black Tea"
+              class="img-responsive img-curve"
+              width="100px"
+              height="80px"
+            />
+          </div>
+
+          <div class="food-menu-desc">
+            <h4 id="black-header">Black Tea</h4>
+            <p class="food-price" id="black-price">50 Rs</p>
+            <p class="food-detail">
+              Made with Water, Tea leaves, Sugar, flavours.
+            </p>
+            <br />
+
+            <button class="btn btn-primary" type="submit">Add To Cart</button>
+          </div>
+        </div>
+
+        <div class="food-menu-box">
+          <div class="food-menu-img">
+            <img
+              src="images/Cappuccino/badammilk.jpg"
+              alt="Badam Milk"
+              class="img-responsive img-curve"
+              width="100px"
+              height="80px"
+            />
+          </div>
+
+          <div class="food-menu-desc">
+            <h4 id="badam-header">Badam Milk</h4>
+            <p class="food-price" id="badam-price">40 Rs</p>
+            <p class="food-detail">
+              Made with Almonds, Sugar, Green cardamoms, Saffron, Milk.
+            </p>
+            <br />
+
+            <button class="btn btn-primary" type="submit">Add To Cart</button>
+          </div>
+        </div>
+
+        <div class="food-menu-box">
+          <div class="food-menu-img">
+            <img
+              src="images/Cappuccino/coldcoffee.jpg"
+              alt="Cold Coffee"
+              class="img-responsive img-curve"
+              width="100px"
+              height="80px"
+            />
+          </div>
+
+          <div class="food-menu-desc">
+            <h4 id="cold-header">Cold Coffee</h4>
+            <p class="food-price" id="cold-price">50 Rs</p>
+            <p class="food-detail">
+              Made with Milk, Instant Coffee, Instant filter coffee,Sugar, Ice
+              cubes.
+            </p>
+            <br />
+
+            <button class="btn btn-primary" type="submit">Add To Cart</button>
+          </div>
+        </div>
+
+        <div class="clearfix"></div>
+      </div>
+      <!-- new code here to submit data to order.html -->
+      <form action="order.html">
+        <input
+          type="submit"
+          value="Submit Order"
+          class="submit-to-order btn btn-primary"
+        />
+      </form>
+    </section>
+    <!-- fOOD Menu Section Ends Here -->
+    <hr />
+    <!-- social Section Starts Here -->
+    <section class="social">
+      <div class="container text-center">
+        <ul>
+          <li>
+            <a href="#"
+              ><img
+                src="https://img.icons8.com/fluent/50/000000/facebook-new.png"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img
+                src="https://img.icons8.com/fluent/48/000000/instagram-new.png"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="https://img.icons8.com/fluent/48/000000/twitter.png"
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- social Section Ends Here -->
+
+    <!-- footer Section Starts Here -->
+    <section class="footer">
+      <div class="container text-center">
+        <p style="color: white">
+          copyright 2022. All rights reserved by <a href="#">rexxmnn</a>
+        </p>
+      </div>
+    </section>
+    <!-- footer Section Ends Here -->
+  </body>
+</html>

@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Important to make website responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>rexcafe</title>
+
+    <!-- Link our CSS file -->
+    <link rel="stylesheet" href="style/style.css" />
+    <!-- <script src="./desertjs/cake2.js" async></script>
+    <script src="./desertjs/choco.js" async></script>
+    <script src="./desertjs/fruitsal.js" async></script>
+    <script src="./desertjs/guava.js" async></script>
+    <script src="./desertjs/mango.js" async></script>
+    <script src="./desertjs/raspb.js" async></script>
+    <script src="./desertjs/strawb.js" async></script>
+    <script src="./desertjs/sweet5.js" async></script>
+    <script src="./desertjs/vanilla.js" async></script>
+    <script src="./desertjs/vegsal.js" async></script> -->
+    <script src="./addToCart.js" async></script>
+  </head>
+
+  <body>
+    <!-- Navbar Section Starts Here -->
+    <section class="navbar">
+      <div class="container">
+        <div class="logo">
+          <a href="#" title="Logo">
+            <img
+              src="images/logo.png"
+              alt="Restaurant Logo"
+              class="img-responsive"
+            />
+          </a>
+        </div>
+
+        <div class="menu text-right">
+          <ul>
+            <li>
+              <a href="mainpage.html">Home</a>
+            </li>
+            <li>
+              <a href="foods.html">Menu</a>
+            </li>
+            <li>
+              <a href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="clearfix"></div>
+      </div>
+    </section>
+    <!-- Navbar Section Ends Here -->
+
+    <!-- fOOD sEARCH Section Starts Here -->
+    <section class="food-search text-center">
+      <div class="container">
+        <h2><a href="#" class="text-red">Dessert</a></h2>
+      </div>
+    </section>
+    <!-- fOOD sEARCH Section Ends Here -->
+
+    <!-- fOOD MEnu Section Starts Here -->
+    <section class="food-menu">
+      <div class="container">
+        <h2 class="text-center">Menu</h2>
+        <div class="food-menu-box">
+          <div class="food-menu-img">
+            <img
+              src="images/Dessert/fruitsalad.jpg"
+              alt="Fruit Salad"
+              class="img-responsive img-curve"
+              width="100px"
+              height="80px"
+            />
+          </div>
+
+          <div class="food-menu-desc">
+            <h4 id="fruit-header">Fruit Salad</h4>
+            <p class="food-price" id="fruit-price">60 Rs</p>
+            <br />
+
+            <button class="btn btn-primary" type="submit">Add To Cart</button>
+          </div>
+        </div>
+
+        <div class="food-menu-box">
+          <div class="food-menu-img">
+            <img
+              src="images/Dessert/vegetablesalad.jpg"
+              alt="Vegetable Salad"
+              class="img-responsive img-curve"
+              width="100px"
+              height="80px"
+            />
+          </div>
+
+          <div class="food-menu-desc">
+            <h4 id="vegsal-header">Vegetable Salad</h4>
+            <p class="food-price" id="vegsal-price">60 Rs</p>
+            <br />
+
+            <button class="btn btn-primary" type="submit">Add To Cart</button>
+          </div>
+        </div>
+
+        <div class="food-menu-box">
+          <div class="food-menu-img">
+            <img
+              src="images/Dessert/cake.jpg"
+              alt="Cake"
+              class="img-responsive img-curve"
+              width="100px"
+              height="80px"
+            />
+          </div>
+
+          <div class="food-menu-desc">
+            <h4 id="cake2-header">Cake (2 pieces)</h4>
+            <p class="food-price" id="cake2-price">60 Rs</p>
+            <br />
+
+            <button class="btn btn-primary" type="submit">Add To Cart</button>
+          </div>
+        </div>
+
+        <div class="food-menu-box">
+          <div class="food-menu-img">
+            <img
+              src="images/Dessert/sweets.jpg"
+              alt="sweet"
+              class="img-responsive img-curve"
+              width="100px"
+              height="80px"
+            />
+          </div>
+
+          <div class="food-menu-desc">
+            <h4 id="sweet5-header">Sweet (5 items)</h4>
+            <p class="food-price" id="sweet5-price">60 Rs</p>
+            <br />
+
+            <button class="btn btn-primary" type="submit">Add To Cart</button>
+          </div>
+        </div>
+
+        <div class="food-menu-box">
+          <div class="food-menu-img">
+            <img
+              src="images/Dessert/vanillaicecream.jpg"
+              alt="Vanilla Icecream"
+              class="img-responsive img-curve"
+              width="100px"
+              height="80px"
+            />
+          </div>
+
+          <div class="food-menu-desc">
+            <h4 id="van-header">Vanilla Icecream (double scoop)</h4>
+            <p class="food-price" id="van-price">50 Rs</p>
+            <br />
+
+            <button class="btn btn-primary" type="submit">Add To Cart</button>
+          </div>
+        </div>
+
+        <div class="food-menu-box">
+          <div class="food-menu-img">
+            <img
+              src="images/Dessert/mangoicecream.jpg"
+              alt="Mango Icecream"
+              class="img-responsive img-curve"
+              width="100px"
+              height="80px"
+            />
+          </div>
+
+          <div class="food-menu-desc">
+            <h4 id="mango-header">Mango Icecream (double scoop)</h4>
+            <p class="food-price" id="mango-price">50 Rs</p>
+            <br />
+
+            <button class="btn btn-primary" type="submit">Add To Cart</button>
+          </div>
+        </div>
+
+        <div class="food-menu-box">
+          <div class="food-menu-img">
+            <img
+              src="images/Dessert/chocolateicecream.jpg"
+              alt="Chocolate Icecream"
+              class="img-responsive img-curve"
+              width="100px"
+              height="80px"
+            />
+          </div>
+
+          <div class="food-menu-desc">
+            <h4 id="choc-header">Chocolate Icecream (double scoop)</h4>
+            <p class="food-price" id="choc-price">50 Rs</p>
+            <br />
+
+            <button class="btn btn-primary" type="submit">Add To Cart</button>
+          </div>
+        </div>
+
+        <div class="food-menu-box">
+          <div class="food-menu-img">
+            <img
+              src="images/Dessert/strawberryicecream.jpg"
+              alt="Strawberry Icecream"
+              class="img-responsive img-curve"
+              width="100px"
+              height="80px"
+            />
+          </div>
+
+          <div class="food-menu-desc">
+            <h4 id="straw-header">Strawberry Icecream (double scoop)</h4>
+            <p class="food-price" id="straw-price">50 Rs</p>
+            <br />
+
+            <button class="btn btn-primary" type="submit">Add To Cart</button>
+          </div>
+        </div>
+
+        <div class="food-menu-box">
+          <div class="food-menu-img">
+            <img
+              src="images/Dessert/raspberryicecream.jpg"
+              alt="Raspberry Icecream"
+              class="img-responsive img-curve"
+              width="100px"
+              height="80px"
+            />
+          </div>
+
+          <div class="food-menu-desc">
+            <h4 id="rasp-header">Raspberry Icecream (double scoop)</h4>
+            <p class="food-price" id="rasp-price">50 Rs</p>
+            <br />
+
+            <button class="btn btn-primary" type="submit">Add To Cart</button>
+          </div>
+        </div>
+
+        <div class="food-menu-box">
+          <div class="food-menu-img">
+            <img
+              src="images/Dessert/guavaicecream.jpg"
+              alt="Guava Icecream"
+              class="img-responsive img-curve"
+              width="100px"
+              height="80px"
+            />
+          </div>
+
+          <div class="food-menu-desc">
+            <h4 id="guava-header">Guava Icecream (double scoop)</h4>
+            <p class="food-price" id="guava-price">50 Rs</p>
+            <p class="food-detail">Serving with guava cream.</p>
+            <br />
+
+            <button class="btn btn-primary" type="submit">Add To Cart</button>
+          </div>
+        </div>
+
+        <div class="clearfix"></div>
+        <!-- new code here to submit data to order.html -->
+        <form action="order.html">
+          <input
+            type="submit"
+            value="Submit Order"
+            class="submit-to-order btn btn-primary"
+          />
+        </form>
+      </div>
+    </section>
+    <!-- fOOD Menu Section Ends Here -->
+    <hr />
+    <!-- social Section Starts Here -->
+    <section class="social">
+      <div class="container text-center">
+        <ul>
+          <li>
+            <a href="#"
+              ><img
+                src="https://img.icons8.com/fluent/50/000000/facebook-new.png"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img
+                src="https://img.icons8.com/fluent/48/000000/instagram-new.png"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="https://img.icons8.com/fluent/48/000000/twitter.png"
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- social Section Ends Here -->
+
+    <!-- footer Section Starts Here -->
+    <section class="footer">
+      <div class="container text-center">
+        <p style="color: white">
+          copyright 2022. All rights reserved by <a href="#">rexxmnn</a>
+        </p>
+      </div>
+    </section>
+    <!-- footer Section Ends Here -->
+  </body>
+</html>

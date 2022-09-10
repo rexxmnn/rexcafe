@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Important to make website responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>rexcafe</title>
+
+    <!-- Link our CSS file -->
+    <link rel="stylesheet" href="style/style.css" />
+    <!-- <script src="./drinksjs/appleju.js" async></script>
+    <script src="./drinksjs/bananaju.js" async></script>
+    <script src="./drinksjs/bananashake.js" async></script>
+    <script src="./drinksjs/beetju.js" async></script>
+    <script src="./drinksjs/carrotju.js" async></script>
+    <script src="./drinksjs/chocoshake.js" async></script>
+    <script src="./drinksjs/coke.js" async></script>
+    <script src="./drinksjs/falooda.js" async></script>
+    <script src="./drinksjs/grape.js" async></script>
+    <script src="./drinksjs/kiwi.js" async></script>
+    <script src="./drinksjs/mangoju.js" async></script>
+    <script src="./drinksjs/mangoshake.js" async></script>
+    <script src="./drinksjs/orangeju.js" async></script>
+    <script src="./drinksjs/mintshake.js" async></script>
+    <script src="./drinksjs/pineju.js" async></script>
+    <script src="./drinksjs/pomo.js" async></script>
+    <script src="./drinksjs/sapotaju.js" async></script>
+    <script src="./drinksjs/soda.js" async></script>
+    <script src="./drinksjs/sprite.js" async></script>
+    <script src="./drinksjs/strawberryshake.js" async></script>
+    <script src="./drinksjs/thumbsup.js" async></script>
+    <script src="./drinksjs/vanillashake.js" async></script>
+    <script src="./drinksjs/water.js" async></script>
+    <script src="./drinksjs/watermelonju.js" async></script> -->
+    <script src="./addToCart.js" async></script>
+  </head>
+
+  <body>
+    <!-- Navbar Section Starts Here -->
+    <section class="navbar">
+      <div class="container">
+        <div class="logo">
+          <a href="#" title="Logo">
+            <img
+              src="images/logo.png"
+              alt="Restaurant Logo"
+              class="img-responsive"
+            />
+          </a>
+        </div>
+
+        <div class="menu text-right">
+          <ul>
+            <li>
+              <a href="mainpage.html">Home</a>
+            </li>
+            <li>
+              <a href="foods.html">Menu</a>
+            </li>
+            <li>
+              <a href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="clearfix"></div>
+      </div>
+    </section>
+    <!-- Navbar Section Ends Here -->
+
+    <!-- fOOD sEARCH Section Starts Here -->
+    <section class="food-search text-center">
+      <div class="container">
+        <h2><a href="#" class="text-red">Drinks</a></h2>
+      </div>
+    </section>
+    <!-- fOOD sEARCH Section Ends Here -->
+
+    <!-- fOOD MEnu Section Starts Here -->
+    <section class="food-menu">
+      <div class="container">
+        <h2 class="text-center">Menu</h2>
+        <div class="food-menu-box">
+          <div class="food-menu-img">
+            <img
+              src="images/Drinks/waterbottle.jpg"
+              alt="Water Bottle"
+              class="img-responsive img-curve"
+              width="100px"
+              height="80px"
+            />
+          </div>
+
+          <div class="food-menu-desc">
+            <h4 id="water-header">Water Bottle (1 liter)</h4>
+            <p class="food-price" id="water-price">30 Rs</p>
+            <br />
+            <button class="btn btn-primary" type="submit">Add To Cart</button>
+          </div>
+        </div>
+
+        <div class="food-menu-box">
+          <div class="food-menu-img">
+            <img
+              src="images/Drinks/falooda.jpg"
+              alt="Falooda"
+              class="img-responsive img-curve"
+              width="100px"
+              height="80px"
+            />
+          </div>
+
+          <div class="food-menu-desc">
+            <h4 id="fal-header">Falooda</h4>
+            <p class="food-price" id="fal-price">60 Rs</p>
+            <br />
+            <button class="btn btn-primary" type="submit">Add To Cart</button>
+          </div>
+        </div>
+
+        <h5 class="text-center">Juices</h5>
+
+        <div class="food-menu-box">
+          <div class="food-menu-img">
+            <img
+              src="images/Drinks/pomegranatejuice.jpg"
+              alt="Pomegranate Juice"
+              class="img-responsive img-curve"
+              width="100px"
+              height="80px"
+            />
+          </div>
+
+          <div class="food-menu-desc">
+            <h4 id="pomo-header">Pomegranate Juice</h4>
+            <p class="food-price" id="pomo-price">50 Rs</p>
+            <br />
+            <button class="btn btn-primary" type="submit">Add To Cart</button>
+          </div>
+        </div>
+
+        <div class="food-menu-box">
+          <div class="food-menu-img">
+            <img
+              src="images/Drinks/kiwijuice.jpg"
+              alt="Kiwi Juice"
+              class="img-responsive img-curve"
+              width="100px"
+              height="80px"
+            />
+          </div>
+
+          <div class="food-menu-desc">
+            <h4 id="kiwi-header">Kiwi Juice</h4>
+            <p class="food-price" id="kiwi-price">50 Rs</p>
+            <br />
+
+            <button class="btn btn-primary" type="submit">Add To Cart</button>
+          </div>
+        </div>
+
+        <div class="food-menu-box">
+          <div class="food-menu-img">
+            <img
+              src="images/Drinks/grapejuice.jpg"
+              alt="Grape Juice"
+              class="img-responsive img-curve"
+              width="100px"
+              height="80px"
+            />
+          </div>
+
+          <div class="food-menu-desc">
+            <h4 id="grape-header">Grape Juice</h4>
+            <p class="food-price" id="grape-price">50 Rs</p>
+            <br />
+
+            <button class="btn btn-primary" type="submit">Add To Cart</button>
+          </div>
+        </div>
+
+        <div class="food-menu-box">
+          <div class="food-menu-img">
+            <img
+              src="images/Drinks/bananajuice.jpg"
+              alt="Banana Juice"
+              class="img-responsive img-curve"
+              width="100px"
+              height="80px"
+            />
+          </div>
+
+          <div class="food-menu-desc">
+            <h4 id="banana-header">Banana Juice</h4>
+            <p class="food-price" id="banana-price">50 Rs</p>
+            <br />
+
+            <button class="btn btn-primary" type="submit">Add To Cart</button>
+          </div>
+        </div>
+
+        <div class="food-menu-box">
+          <div class="food-menu-img">
+            <img
+              src="images/Drinks/applejuice.jpg"
+              alt="Apple Juice"
+              class="img-responsive img-curve"
+              width="100px"
+              height="80px"
+            />
+          </div>
+
+          <div class="food-menu-desc">
+            <h4 id="apple-header">Apple Juice</h4>
+            <p class="food-price" id="apple-price">60 Rs</p>
+            <br />
+
+            <button class="btn btn-primary" type="submit">Add To Cart</button>
+          </div>
+        </div>
+
+        <div class="food-menu-box">
+          <div class="food-menu-img">
+            <img
+              src="images/Drinks/orangejuice.jpg"
+              alt="Orange Juice"
+              class="img-responsive img-curve"
+              width="100px"
+              height="80px"
+            />
+          </div>
+
+          <div class="food-menu-desc">
+            <h4 id="orange-header">Orange Juice</h4>
+            <p class="food-price" id="orange-price">50 Rs</p>
+            <br />
+
+            <button class="btn btn-primary" type="submit">Add To Cart</button>
+          </div>
+        </div>
+
+        <div class="food-menu-box">
+          <div class="food-menu-img">
+            <img
+              src="images/Drinks/mangojuice.jpg"
+              alt="Mango Juice"
+              class="img-responsive img-curve"
+              width="100px"
+              height="80px"
+            />
+          </div>
+
+          <div class="food-menu-desc">
+            <h4 id="mangoj-header">Mango Juice</h4>
+            <p class="food-price" id="mangoj-price">60 Rs</p>
+            <br />
+
+            <button class="btn btn-primary" type="submit">Add To Cart</button>
+          </div>
+        </div>
+
+        <div class="food-menu-box">
+          <div class="food-menu-img">
+            <img
+              src="images/Drinks/pineapplejuice.jpg"
+              alt="Pineapple Juice"
+              class="img-responsive img-curve"
+              width="100px"
+              height="80px"
+            />
+          </div>
+
+          <div class="food-menu-desc">
+            <h4 id="pine-header">Pineapple Juice</h4>
+            <p class="food-price" id="pine-price">60 Rs</p>
+            <br />
+
+            <button class="btn btn-primary" type="submit">Add To Cart</button>
+          </div>
+        </div>
+
+        <div class="food-menu-box">
+          <div class="food-menu-img">
+            <img
+              src="images/Drinks/watermelonjuice.jpg"
+              alt="Watermelon Juice"
+              class="img-responsive img-curve"
+              width="100px"
+              height="80px"
+            />
+          </div>
+
+          <div class="food-menu-desc">
+            <h4 id="waterm-header">Watermelon Juice</h4>
+            <p class="food-price" id="waterm-price">60 Rs</p>
+            <br />
+
+            <button class="btn btn-primary" type="submit">Add To Cart</button>
+          </div>
+        </div>
+
+        <div class="food-menu-box">
+          <div class="food-menu-img">
+            <img
+              src="images/Drinks/sapotajuice.jpg"
+              alt="Sapota Juice"
+              class="img-responsive img-curve"
+              width="100px"
+              height="80px"
+            />
+          </div>
+
+          <div class="food-menu-desc">
+            <h4 id="sapota-header">Sapota Juice</h4>
+            <p class="food-price" id="sapota-price">60 Rs</p>
+            <br />
+
+            <button class="btn btn-primary" type="submit">Add To Cart</button>
+          </div>
+        </div>
+
+        <div class="food-menu-box">
+          <div class="food-menu-img">
+            <img
+              src="images/Drinks/carrotjuice.jpg"
+              alt="Carrot Juice"
+              class="img-responsive img-curve"
+              width="100px"
+              height="80px"
+            />
+          </div>
+
+          <div class="food-menu-desc">
+            <h4 id="carrot-header">Carrot Juice</h4>
+            <p class="food-price" id="carrot-price">50 Rs</p>
+            <br />
+
+            <button class="btn btn-primary" type="submit">Add To Cart</button>
+          </div>
+        </div>
+
+        <div class="food-menu-box">
+          <div class="food-menu-img">
+            <img
+              src="images/Drinks/beetrootjuice.jpg"
+              alt="Beetroot Juice"
+              class="img-responsive img-curve"
+              width="100px"
+              height="80px"
+            />
+          </div>
+
+          <div class="food-menu-desc">
+            <h4 id="beet-header">Beetroot Juice</h4>
+            <p class="food-price" id="beet-price">50 Rs</p>
+            <br />
+
+            <button class="btn btn-primary" type="submit">Add To Cart</button>
+          </div>
+        </div>
+
+        <h5 class="text-center">Soft Drinks</h5>
+
+        <div class="food-menu-box">
+          <div class="food-menu-img">
+            <img
+              src="images/Drinks/coke.jpg"
+              alt="Coke"
+              class="img-responsive img-curve"
+              width="100px"
+              height="80px"
+            />
+          </div>
+
+          <div class="food-menu-desc">
+            <h4 id="coke-header">Coke</h4>
+            <p class="food-price" id="coke-price">40 Rs</p>
+            <br />
+
+            <button class="btn btn-primary" type="submit">Add To Cart</button>
+          </div>
+        </div>
+
+        <div class="food-menu-box">
+          <div class="food-menu-img">
+            <img
+              src="images/Drinks/sprite.jpg"
+              alt="Sprite"
+              class="img-responsive img-curve"
+              width="100px"
+              height="80px"
+            />
+          </div>
+
+          <div class="food-menu-desc">
+            <h4 id="sprite-header">Sprite</h4>
+            <p class="food-price" id="sprite-price">40 Rs</p>
+            <br />
+
+            <button class="btn btn-primary" type="submit">Add To Cart</button>
+          </div>
+        </div>
+
+        <div class="food-menu-box">
+          <div class="food-menu-img">
+            <img
+              src="images/Drinks/thumpsup.jpg"
+              alt="Thumsup"
+              class="img-responsive img-curve"
+              width="100px"
+              height="80px"
+            />
+          </div>
+
+          <div class="food-menu-desc">
+            <h4 id="thumb-header">Thums UP</h4>
+            <p class="food-price" id="thumb-price">40 Rs</p>
+            <br />
+
+            <button class="btn btn-primary" type="submit">Add To Cart</button>
+          </div>
+        </div>
+
+        <div class="food-menu-box">
+          <div class="food-menu-img">
+            <img
+              src="images/Drinks/soda.jpg"
+              alt="Soda"
+              class="img-responsive img-curve"
+              width="100px"
+              height="80px"
+            />
+          </div>
+
+          <div class="food-menu-desc">
+            <h4 id="soda-header">Soda</h4>
+            <p class="food-price" id="soda-price">30 Rs</p>
+            <br />
+
+            <button class="btn btn-primary" type="submit">Add To Cart</button>
+          </div>
+        </div>
+
+        <h5 class="text-center">Shakes</h5>
+
+        <div class="food-menu-box">
+          <div class="food-menu-img">
+            <img
+              src="images/Drinks/vanillamilkshake.jpg"
+              alt="Vanilla Shake"
+              class="img-responsive img-curve"
+              width="100px"
+              height="80px"
+            />
+          </div>
+
+          <div class="food-menu-desc">
+            <h4 id="vans-header">Vanilla Shake</h4>
+            <p class="food-price" id="vans-price">60 Rs</p>
+            <br />
+
+            <button class="btn btn-primary" type="submit">Add To Cart</button>
+          </div>
+        </div>
+
+        <div class="food-menu-box">
+          <div class="food-menu-img">
+            <img
+              src="images/Drinks/mangoshake.jpg"
+              alt="Mango Shake"
+              class="img-responsive img-curve"
+              width="100px"
+              height="80px"
+            />
+          </div>
+
+          <div class="food-menu-desc">
+            <h4 id="mangos-header">Mango Shake</h4>
+            <p class="food-price" id="mangos-price">60 Rs</p>
+            <br />
+
+            <button class="btn btn-primary" type="submit">Add To Cart</button>
+          </div>
+        </div>
+
+        <div class="food-menu-box">
+          <div class="food-menu-img">
+            <img
+              src="images/Drinks/bananashake.jpg"
+              alt="Banana Shake"
+              class="img-responsive img-curve"
+              width="100px"
+              height="80px"
+            />
+          </div>
+
+          <div class="food-menu-desc">
+            <h4 id="bananas-header">Banana Shake</h4>
+            <p class="food-price" id="bananas-price">60 Rs</p>
+            <br />
+
+            <button class="btn btn-primary" type="submit">Add To Cart</button>
+          </div>
+        </div>
+
+        <div class="food-menu-box">
+          <div class="food-menu-img">
+            <img
+              src="images/Drinks/strawberryshake.jpg"
+              alt="Strawberry Shake"
+              class="img-responsive img-curve"
+              width="100px"
+              height="80px"
+            />
+          </div>
+
+          <div class="food-menu-desc">
+            <h4 id="strawbs-header">Strawberry Shake</h4>
+            <p class="food-price" id="strawbs-price">60 Rs</p>
+            <br />
+
+            <button class="btn btn-primary" type="submit">Add To Cart</button>
+          </div>
+        </div>
+
+        <div class="food-menu-box">
+          <div class="food-menu-img">
+            <img
+              src="images/Drinks/chocolateshake.jpg"
+              alt="Chocolate Shake"
+              class="img-responsive img-curve"
+              width="100px"
+              height="80px"
+            />
+          </div>
+
+          <div class="food-menu-desc">
+            <h4 id="chocos-header">Chocolate Shake</h4>
+            <p class="food-price" id="chocos-price">60 Rs</p>
+            <br />
+
+            <button class="btn btn-primary" type="submit">Add To Cart</button>
+          </div>
+        </div>
+
+        <div class="food-menu-box">
+          <div class="food-menu-img">
+            <img
+              src="images/Drinks/mintshake.jpg"
+              alt="Mint Shake"
+              class="img-responsive img-curve"
+              width="100px"
+              height="80px"
+            />
+          </div>
+
+          <div class="food-menu-desc">
+            <h4 id="mint-header">Mint Shake</h4>
+            <p class="food-price" id="mint-price">60 Rs</p>
+            <br />
+
+            <button class="btn btn-primary" type="submit">Add To Cart</button>
+          </div>
+        </div>
+
+        <div class="clearfix"></div>
+        <!-- new code here to submit data to order.html -->
+        <form action="order.html">
+          <input
+            type="submit"
+            value="Submit Order"
+            class="submit-to-order btn btn-primary"
+          />
+        </form>
+      </div>
+    </section>
+    <!-- fOOD Menu Section Ends Here -->
+    <hr />
+    <!-- social Section Starts Here -->
+    <section class="social">
+      <div class="container text-center">
+        <ul>
+          <li>
+            <a href="#"
+              ><img
+                src="https://img.icons8.com/fluent/50/000000/facebook-new.png"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img
+                src="https://img.icons8.com/fluent/48/000000/instagram-new.png"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="https://img.icons8.com/fluent/48/000000/twitter.png"
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- social Section Ends Here -->
+
+    <!-- footer Section Starts Here -->
+    <section class="footer">
+      <div class="container text-center">
+        <p style="color: white">
+          copyright 2022. All rights reserved by <a href="#">rexxmnn</a>
+        </p>
+      </div>
+    </section>
+    <!-- footer Section Ends Here -->
+  </body>
+</html>
